@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504C55FE1BA8946C0008F73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C55F31BA8946C0008F73A /* AppDelegate.swift */; };
+		504C55FF1BA8946C0008F73A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C55F41BA8946C0008F73A /* ContentViewController.swift */; };
+		504C56001BA8946C0008F73A /* DummyControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C55F51BA8946C0008F73A /* DummyControl.swift */; };
+		504C56011BA8946C0008F73A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504C55F61BA8946C0008F73A /* Images.xcassets */; };
+		504C56031BA8946C0008F73A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504C55F81BA8946C0008F73A /* MainMenu.xib */; };
+		504C56041BA8946C0008F73A /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C55F91BA8946C0008F73A /* NetworkHandler.swift */; };
+		504C56051BA8946C0008F73A /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C55FA1BA8946C0008F73A /* PictureViewController.swift */; };
+		504C56061BA8946C0008F73A /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 504C55FC1BA8946C0008F73A /* Status@2x.png */; };
+		504C56071BA8946C0008F73A /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 504C55FD1BA8946C0008F73A /* StatusHighlighted@2x.png */; };
+		504C56091BA898A50008F73A /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C56081BA898A50008F73A /* CocoaAsyncSocket.framework */; };
+		50CC50131B9DB48400D2F4D9 /* procastiBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC50121B9DB48400D2F4D9 /* procastiBarTests.swift */; };
+		77C7F954C53EC6DECD075E7E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60048A14C867982DC5AC23A6 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50CC500D1B9DB48400D2F4D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50CC4FF41B9DB48400D2F4D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CC4FFB1B9DB48400D2F4D9;
+			remoteInfo = procastiBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4C84D3A5F2C9C44778F835 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		504C55F31BA8946C0008F73A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = procrastiBar/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		504C55F41BA8946C0008F73A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = procrastiBar/ContentViewController.swift; sourceTree = SOURCE_ROOT; };
+		504C55F51BA8946C0008F73A /* DummyControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DummyControl.swift; path = procrastiBar/DummyControl.swift; sourceTree = SOURCE_ROOT; };
+		504C55F61BA8946C0008F73A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = procrastiBar/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		504C55F71BA8946C0008F73A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = procrastiBar/Info.plist; sourceTree = SOURCE_ROOT; };
+		504C55F81BA8946C0008F73A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = procrastiBar/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		504C55F91BA8946C0008F73A /* NetworkHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkHandler.swift; path = procrastiBar/NetworkHandler.swift; sourceTree = SOURCE_ROOT; };
+		504C55FA1BA8946C0008F73A /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PictureViewController.swift; path = procrastiBar/PictureViewController.swift; sourceTree = SOURCE_ROOT; };
+		504C55FB1BA8946C0008F73A /* procastiBar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "procastiBar-Bridging-Header.h"; path = "procrastiBar/procastiBar-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		504C55FC1BA8946C0008F73A /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Status@2x.png"; path = "procrastiBar/Status@2x.png"; sourceTree = SOURCE_ROOT; };
+		504C55FD1BA8946C0008F73A /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusHighlighted@2x.png"; path = "procrastiBar/StatusHighlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		504C56081BA898A50008F73A /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Pods/../build/Debug/Pods/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		50CC4FFC1B9DB48400D2F4D9 /* procrastiBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = procrastiBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CC500C1B9DB48400D2F4D9 /* procrastiBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = procrastiBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CC50111B9DB48400D2F4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CC50121B9DB48400D2F4D9 /* procastiBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = procastiBarTests.swift; sourceTree = "<group>"; };
+		60048A14C867982DC5AC23A6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E4882D99216BD3CE0D2027 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CC4FF91B9DB48400D2F4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C56091BA898A50008F73A /* CocoaAsyncSocket.framework in Frameworks */,
+				77C7F954C53EC6DECD075E7E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CC50091B9DB48400D2F4D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1345745A3515AD537648F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E4882D99216BD3CE0D2027 /* Pods.debug.xcconfig */,
+				4F4C84D3A5F2C9C44778F835 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D88F362162DE87D08A0CB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504C56081BA898A50008F73A /* CocoaAsyncSocket.framework */,
+				60048A14C867982DC5AC23A6 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50CC4FF31B9DB48400D2F4D9 = {
+			isa = PBXGroup;
+			children = (
+				50CC4FFE1B9DB48400D2F4D9 /* procrastiBar */,
+				50CC500F1B9DB48400D2F4D9 /* procastiBarTests */,
+				50CC4FFD1B9DB48400D2F4D9 /* Products */,
+				0E1345745A3515AD537648F0 /* Pods */,
+				3D88F362162DE87D08A0CB25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50CC4FFD1B9DB48400D2F4D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CC4FFC1B9DB48400D2F4D9 /* procrastiBar.app */,
+				50CC500C1B9DB48400D2F4D9 /* procrastiBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CC4FFE1B9DB48400D2F4D9 /* procrastiBar */ = {
+			isa = PBXGroup;
+			children = (
+				504C55F31BA8946C0008F73A /* AppDelegate.swift */,
+				504C55F41BA8946C0008F73A /* ContentViewController.swift */,
+				504C55F51BA8946C0008F73A /* DummyControl.swift */,
+				504C55F61BA8946C0008F73A /* Images.xcassets */,
+				504C55F71BA8946C0008F73A /* Info.plist */,
+				504C55F81BA8946C0008F73A /* MainMenu.xib */,
+				504C55F91BA8946C0008F73A /* NetworkHandler.swift */,
+				504C55FA1BA8946C0008F73A /* PictureViewController.swift */,
+				504C55FB1BA8946C0008F73A /* procastiBar-Bridging-Header.h */,
+				504C55FC1BA8946C0008F73A /* Status@2x.png */,
+				504C55FD1BA8946C0008F73A /* StatusHighlighted@2x.png */,
+				50CC4FFF1B9DB48400D2F4D9 /* Supporting Files */,
+			);
+			name = procrastiBar;
+			path = procastiBar;
+			sourceTree = "<group>";
+		};
+		50CC4FFF1B9DB48400D2F4D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CC500F1B9DB48400D2F4D9 /* procastiBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				50CC50121B9DB48400D2F4D9 /* procastiBarTests.swift */,
+				50CC50101B9DB48400D2F4D9 /* Supporting Files */,
+			);
+			path = procastiBarTests;
+			sourceTree = "<group>";
+		};
+		50CC50101B9DB48400D2F4D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CC50111B9DB48400D2F4D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CC4FFB1B9DB48400D2F4D9 /* procrastiBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CC50161B9DB48400D2F4D9 /* Build configuration list for PBXNativeTarget "procrastiBar" */;
+			buildPhases = (
+				C5F8DDF8B8DBAD56B15B0E2E /* Check Pods Manifest.lock */,
+				50CC4FF81B9DB48400D2F4D9 /* Sources */,
+				50CC4FF91B9DB48400D2F4D9 /* Frameworks */,
+				50CC4FFA1B9DB48400D2F4D9 /* Resources */,
+				5F79CD50EEEE98550FD88B16 /* Embed Pods Frameworks */,
+				098B4C9D06B09D5FFFBB32FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = procrastiBar;
+			productName = procastiBar;
+			productReference = 50CC4FFC1B9DB48400D2F4D9 /* procrastiBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50CC500B1B9DB48400D2F4D9 /* procrastiBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CC50191B9DB48400D2F4D9 /* Build configuration list for PBXNativeTarget "procrastiBarTests" */;
+			buildPhases = (
+				50CC50081B9DB48400D2F4D9 /* Sources */,
+				50CC50091B9DB48400D2F4D9 /* Frameworks */,
+				50CC500A1B9DB48400D2F4D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CC500E1B9DB48400D2F4D9 /* PBXTargetDependency */,
+			);
+			name = procrastiBarTests;
+			productName = procastiBarTests;
+			productReference = 50CC500C1B9DB48400D2F4D9 /* procrastiBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CC4FF41B9DB48400D2F4D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Codingcave.de;
+				TargetAttributes = {
+					50CC4FFB1B9DB48400D2F4D9 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
+					};
+					50CC500B1B9DB48400D2F4D9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 50CC4FFB1B9DB48400D2F4D9;
+					};
+				};
+			};
+			buildConfigurationList = 50CC4FF71B9DB48400D2F4D9 /* Build configuration list for PBXProject "procrastiBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50CC4FF31B9DB48400D2F4D9;
+			productRefGroup = 50CC4FFD1B9DB48400D2F4D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CC4FFB1B9DB48400D2F4D9 /* procrastiBar */,
+				50CC500B1B9DB48400D2F4D9 /* procrastiBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CC4FFA1B9DB48400D2F4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C56011BA8946C0008F73A /* Images.xcassets in Resources */,
+				504C56071BA8946C0008F73A /* StatusHighlighted@2x.png in Resources */,
+				504C56031BA8946C0008F73A /* MainMenu.xib in Resources */,
+				504C56061BA8946C0008F73A /* Status@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CC500A1B9DB48400D2F4D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098B4C9D06B09D5FFFBB32FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F79CD50EEEE98550FD88B16 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F8DDF8B8DBAD56B15B0E2E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CC4FF81B9DB48400D2F4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C55FE1BA8946C0008F73A /* AppDelegate.swift in Sources */,
+				504C56001BA8946C0008F73A /* DummyControl.swift in Sources */,
+				504C55FF1BA8946C0008F73A /* ContentViewController.swift in Sources */,
+				504C56041BA8946C0008F73A /* NetworkHandler.swift in Sources */,
+				504C56051BA8946C0008F73A /* PictureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CC50081B9DB48400D2F4D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CC50131B9DB48400D2F4D9 /* procastiBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CC500E1B9DB48400D2F4D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CC4FFB1B9DB48400D2F4D9 /* procrastiBar */;
+			targetProxy = 50CC500D1B9DB48400D2F4D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50CC50141B9DB48400D2F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50CC50151B9DB48400D2F4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50CC50171B9DB48400D2F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E4882D99216BD3CE0D2027 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/Pods",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/procrastiBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingcave.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = procrastiBar;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50CC50181B9DB48400D2F4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4C84D3A5F2C9C44778F835 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug/Pods",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/procrastiBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingcave.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = procrastiBar;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50CC501A1B9DB48400D2F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = procastiBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = procrastiBarTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/procastiBar.app/Contents/MacOS/procastiBar";
+			};
+			name = Debug;
+		};
+		50CC501B1B9DB48400D2F4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = procastiBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = procrastiBarTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/procastiBar.app/Contents/MacOS/procastiBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CC4FF71B9DB48400D2F4D9 /* Build configuration list for PBXProject "procrastiBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CC50141B9DB48400D2F4D9 /* Debug */,
+				50CC50151B9DB48400D2F4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CC50161B9DB48400D2F4D9 /* Build configuration list for PBXNativeTarget "procrastiBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CC50171B9DB48400D2F4D9 /* Debug */,
+				50CC50181B9DB48400D2F4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CC50191B9DB48400D2F4D9 /* Build configuration list for PBXNativeTarget "procrastiBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CC501A1B9DB48400D2F4D9 /* Debug */,
+				50CC501B1B9DB48400D2F4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50CC4FF41B9DB48400D2F4D9 /* Project object */;
+}
